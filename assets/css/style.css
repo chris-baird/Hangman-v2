@@ -16,3 +16,25 @@ img {
     width: 200px;
     margin-top: 2em;
 }
+
+.nav {
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    padding: 4em 3em;
+}
+
+.menu-item {
+    font-size: 2.5rem;
+    list-style: none;
+    margin: 1.5em 0;
+}
+
+.start-header {
+    font-size: 3.5rem;
+    margin: .5em 0 1em 0; 
+}
+
+ul {
+    padding: 0;
+}
