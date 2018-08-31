@@ -14,7 +14,7 @@
 <body>
     <main class="container">
         <!-- Start View -->
-        <section class="row start-area">
+        <section class="row start-area hidden">
             <h1 class="start-header col-sm-12 text-center">Hangman V2</h1>
             <nav class="mx-auto nav main-nav">
                 <ul class="mx-auto">
@@ -25,16 +25,22 @@
             </nav>
         </section>
         <!-- Game Options View -->
-        <section class="row options-area hidden">
-            <h1 class="col-sm-12 text-center">Choose A Hangman</h1>
+        <section class="row options-area">
+            <h1 class="start-header col-sm-12 text-center">Choose A Hangman</h1>
             <div class="col-sm choice">
                 <h2 class="text-center">Choice 1</h2>
+                <img class="hangman-options-image img-responsive d-block" src="assets/resources/4.png" alt="">
+                <button class="choice-button mx-auto">Start Game</button>
             </div>
             <div class="col-sm choice">
-                <h2 class="text-center">Choice 1</h2>
+                <h2 class="text-center">Choice 2</h2>
+                <img class="hangman-options-image img-responsive d-block" src="assets/resources/4.png" alt="">
+                <button class="choice-button mx-auto">Start Game</button>
             </div>
             <div class="col-sm choice">
-                <h2 class="text-center">Choice 1</h2>
+                <h2 class="text-center">Choice 3</h2>
+                <img class="hangman-options-image img-responsive d-block" src="assets/resources/4.png" alt="">
+                <button class="choice-button mx-auto">Start Game</button>
             </div>
         </section>
         <!-- Game View -->
@@ -42,7 +48,7 @@
             <h1 class="col-sm-12 text-center">Hint Will Go Here</h1>
             <p class="mx-auto">Error Area</p>
             <div class="col-sm-12 hangman">
-                <img class="img-responsive d-block" src="assets/resources/4.png" alt="">
+                <img class="hangman-game-img img-responsive d-block" src="assets/resources/4.png" alt="">
             </div>
             <div class="col-sm choice right-choices">
                 <h2 class="text-center">Right Choices</h2>

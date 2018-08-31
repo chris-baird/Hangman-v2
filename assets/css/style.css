@@ -2,14 +2,24 @@
     display: none;
 }
 
-img {
+.hangman-game-img {
     display: block;
     margin: auto;
     height: 500px;
 }
 
+.hangman-options-image {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
 .choice {
     border: 1px solid black;
+}
+
+.choice-button {
+    display: block;
 }
 
 .buttons {
