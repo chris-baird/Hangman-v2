@@ -5,4 +5,14 @@
 img {
     display: block;
     margin: auto;
+    height: 500px;
+}
+
+.choice {
+    border: 1px solid black;
+}
+
+.buttons {
+    width: 200px;
+    margin-top: 2em;
 }
