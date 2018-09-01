@@ -14,18 +14,18 @@
 <body>
     <main class="container">
         <!-- Start View -->
-        <section class="row start-area hidden">
+        <section class="row start-area" data-view="start">
             <h1 class="start-header col-sm-12 text-center">Hangman V2</h1>
             <nav class="mx-auto nav main-nav">
                 <ul class="mx-auto">
-                    <li class="menu-item text-center">Play Game</li>
-                    <li class="menu-item text-center">Instructions</li>
-                    <li class="menu-item text-center">About The Developer</li>
+                    <li class="menu-play menu-item text-center" data-button="play">Play Game</li>
+                    <li class="menu-instructions menu-item text-center" data-button="Instructions">Instructions</li>
+                    <li class="menu-about menu-item text-center" data-button="about">About The Developer</li>
                 </ul>
             </nav>
         </section>
         <!-- Game Options View -->
-        <section class="row options-area">
+        <section class="row options-area hidden" data-view="options">
             <h1 class="start-header col-sm-12 text-center">Choose A Hangman</h1>
             <div class="col-sm choice">
                 <h2 class="text-center">Choice 1</h2>
@@ -44,7 +44,7 @@
             </div>
         </section>
         <!-- Game View -->
-        <section class="row game-area hidden">
+        <section class="row game-area hidden" data-view="game">
             <h1 class="col-sm-12 text-center">Hint Will Go Here</h1>
             <p class="mx-auto">Error Area</p>
             <div class="col-sm-12 hangman">
