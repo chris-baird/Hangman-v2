@@ -34,6 +34,16 @@
     padding: 4em 3em;
 }
 
+.instructions-area {
+    border: 1px solid black;
+    width: 500px;
+    padding: 4em 3em;
+}
+
+.instructions-button {
+    display: block;
+}
+
 .menu-item {
     font-size: 2.5rem;
     list-style: none;
